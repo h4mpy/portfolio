@@ -1,6 +1,6 @@
 # Full-stack разработчик
 
-###Опыт работы
+### Опыт работы
 
 - Fullstack разработка, включая верстку и установку на систему управления (Битрикс, в прошлом HostCMS). 
 Примеры "fullstack" проектов – [archiv.ru](https://www.archiv.ru/ "Делис Архив"), [parkzabava.ru](https://www.parkzabava.ru/ "Парк Забава"), [papindom.ru](http://papindom.ru/ "Папин Дом"), [yaringcom.ru](https://www.yaringcom.ru/ "Яринжком"), [vishivaem.ru](https://vishivaem.ru/ "Ярославская вышивальная фабрика"), [energy-blast.ru](https://energy-blast.ru/ "Energy Blast"), [mik76.ru](https://mik76.ru/ "МИК")
@@ -14,7 +14,7 @@
 
 Люблю различные метрики, стараюсь писать понятный, эффективный код и на фронте, и на бэке. Придерживаюсь ООП.
 
-###Примеры кода
+### Примеры кода
 - [Порт NPM клиента для Wordpress](https://github.com/h4mpy/portfolio/tree/master/examples/wordpress.npm) `php` `vue`  
 - [Модуль управления оплатами из БУС в Битрикс24](https://github.com/h4mpy/sync.payments) `php` `vue`  
 - [Модуль отправки форм через SMTP для БУС + log reader](https://github.com/h4mpy/sync.payments) `php`  
