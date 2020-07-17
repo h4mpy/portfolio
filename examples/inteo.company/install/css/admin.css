@@ -1,0 +1,31 @@
+pre.code {
+	border: 1px solid #ddd;
+	background: #eee;
+	color: #657b83;
+	line-height: 15px;
+	overflow: auto;
+	padding: 20px;
+	margin: 10px 0 10px;
+}
+.hideblock {
+	display: none;
+}
+.bx-action-href.disabled {
+	color: #aaafb3!important;
+	border-bottom-color: #aaafb3!important;
+	cursor: default;
+}
+.sending:after {
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: bottom;
+	-webkit-animation: ellipsis steps(4, end) 900ms infinite;
+	animation: ellipsis steps(4, end) 900ms infinite;
+	content: "\2026";
+	width: 0;
+}
+@keyframes ellipsis {
+	to {
+		width: 1.25em;
+	}
+}

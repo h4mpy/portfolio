@@ -1,0 +1,515 @@
+# Copyright (C) 2020 Anton Volosivets
+# This file is distributed under the same license as the NPM Client for WordPress plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: NPM Client for WordPress 1.0.0\n"
+"Report-Msgid-Bugs-To: https://codecanyon.net/user/h4mpy\n"
+"Last-Translator: Anton Volosivets <h4mpymail@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-22T15:35:16+02:00\n"
+"PO-Revision-Date: 2020-05-22T15:35:16+02:00\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: h4mpy-npm\n"
+
+#. Plugin Name of the plugin
+msgid "NPM Client for WordPress"
+msgstr ""
+
+#. Description of the plugin
+msgid "Quick installation and updating of JS packages."
+msgstr ""
+
+#: admin/class-h4mpy-npm-admin.php:49
+#: admin/partials/h4mpy-npm-admin-display.php:2
+msgid "NPM client (Quick installation and updating of JS packages)"
+msgstr ""
+
+#: admin/class-h4mpy-npm-admin.php:50
+msgid "NPM client"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:4
+msgid "We're sorry but plugin doesn't work properly without JavaScript enabled. Please enable it to continue."
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:92
+msgid "Package installation"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:93
+msgid "Theme settings"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:94
+msgid "Edit"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:96
+msgid "Execute"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:97
+msgid "Search, command line"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:98
+msgid "Install"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:99
+msgid "Installed"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:100
+msgid "Delete"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:101
+msgid "Delete from package.json"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:102
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:103
+msgid "Yes"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:104
+msgid "No"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:105
+msgctxt "Without author name"
+msgid "Published"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:106
+msgctxt "With author name"
+msgid "published"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:108
+msgid "Readme"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:109
+msgid "Loading"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:110
+#: admin/partials/h4mpy-npm-admin-display.php:264
+msgid "Package not found"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:111
+msgid "Theme not found"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:112
+msgid "Package loading error"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:113
+msgid "Failed to load package details"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:114
+msgid "This package doesn't have a default file set. You can choose files to include manually."
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:118
+msgid "Copy file path"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:119
+msgid "Copy PHP code"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:120
+msgid "Copy HTML code"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:121
+msgid "Open in a new window"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:122
+msgid "Error"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:123
+msgid "Back to package list"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:124
+msgid "Back to search results"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:125
+msgid "Back to theme list"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:126
+msgid "User library"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:127
+msgid "Selected files"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:128
+msgid "No files selected. Select the files you want to use in your theme using the switches on the left."
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:132
+msgid "Refresh"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:133
+msgid "Reload"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:134
+#: admin/partials/h4mpy-npm-admin-display.php:191
+msgid "Version"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:135
+msgid "Version will be installed"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:136
+msgid "Version cannot be installed"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:137
+msgid "Requested version"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:138
+msgid "Installed version"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:139
+msgid "Error during installation"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:140
+msgid "License"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:141
+msgid "Homepage"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:142
+msgid "More"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:143
+msgid "Installing"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:144
+#: admin/partials/h4mpy-npm-admin-display.php:155
+msgid "package"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:145
+msgid "NPM link"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:146
+msgid "Repository"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:147
+msgid "Last update"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:148
+msgid "No description provided"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:149
+msgid "Keywords"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:150
+msgid "version"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:150
+msgctxt "Several"
+msgid "versions"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:154
+msgctxt "Many"
+msgid "versions"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:155
+msgctxt "Several"
+msgid "packages"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:159
+msgctxt "Many"
+msgid "packages"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:160
+msgid "found"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:161
+msgid "Tip"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:162
+msgid "Click on a version number to view a previous version's package page"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:166
+msgid "Current Tags"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:167
+msgid "Version History"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:168
+msgid "show deprecated versions"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:169
+msgid "This package has been deprecated"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:170
+msgid "Author message"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:171
+msgid "Dependencies"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:172
+msgid "Page not found"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:173
+msgid "Please enter a search query"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:174
+msgid "Latest version"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:176
+msgid "deprecated"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:177
+msgid "unstable"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:178
+msgid "insecure"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:179
+msgid "exact match"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:182
+#: admin/partials/h4mpy-npm-admin-display.php:188
+msgid "Maintenance"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:183
+#: admin/partials/h4mpy-npm-admin-display.php:187
+msgid "Popularity"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:184
+#: admin/partials/h4mpy-npm-admin-display.php:189
+msgid "Quality"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:185
+msgid "Sort Packages"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:186
+msgid "Optimal"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:190
+#: admin/partials/h4mpy-npm-admin-display.php:218
+msgid "Wordpress authorization expired. Please refresh the page."
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:192
+msgid "available"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:193
+msgid "Update to"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:194
+msgid "Attention!"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:194
+msgid "A major version update may disrupt your libraries. Such updates often contain new methods, functions, and settings. The old ones can be rewritten or deleted. This may cause errors in your scripts and dependent libraries."
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:197
+msgid "Are you sure you want to install the update?"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:198
+msgid "Theme list is empty"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:199
+msgid "Save and include files"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:200
+msgid "Code for manual install"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:201
+msgid "All changes are saved"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:202
+msgid "Error while saving settings. Try again later."
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:203
+msgid "Save"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:204
+msgid "Package was uninstalled"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:205
+msgid "Load the javascript package by entering its name in the search bar, or using the"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:209
+msgid "Include the necessary package files in the site template"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:213
+msgid "The package is successfully included! When a new version appears, you can update the version on the site in 1 click."
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:217
+msgid "Wrong npm command format"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:219
+msgid "Server is unavailable now"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:220
+msgid "NPM command not recognized."
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:220
+msgid "The module currently supports these commands"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:223
+msgid "Installation"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:226
+msgid "or"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:232
+msgid "install %1$s to %2$s folder"
+msgstr ""
+
+#. translators: Package name
+#: admin/partials/h4mpy-npm-admin-display.php:238
+msgid "install specific %s version"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:244
+msgid "any version according to <a href=\"%s\" target=\"_blank\">semantic versioning rules</a>"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:253
+msgid "For example"
+msgstr ""
+
+#. translators: Package name
+#: admin/partials/h4mpy-npm-admin-display.php:255
+msgid "install %s latest version"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:259
+msgid "install %1$s latest version from range %2$s with only minor updates possible"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:265
+msgid "This version cannot be installed"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:266
+msgid "This package already installed"
+msgstr ""
+
+#. translators: 1: Config file name (package.json)
+#: admin/partials/h4mpy-npm-admin-display.php:269
+msgid "Packages for install not found in %s"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:271
+msgid "All packages already installed"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:272
+msgid "Packages are not yet installed. First install the necessary packages."
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:277
+msgid "The zlib extension for php is required for the module to work correctly"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:281
+msgid "Current theme"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:282
+msgid "Author"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:283
+msgid "Customize"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:284
+msgid "Customizing theme"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:285
+msgid "Notice"
+msgstr ""
+
+#: admin/partials/h4mpy-npm-admin-display.php:286
+msgid "The jQuery library is already built into the Wordpress core. To avoid conflicts, make sure that your theme does not include the built-in version of jQuery and does not include scripts that use it."
+msgstr ""

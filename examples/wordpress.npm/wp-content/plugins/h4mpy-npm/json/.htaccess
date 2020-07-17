@@ -1,0 +1,8 @@
+Order Allow,Deny
+Allow from all
+
+RewriteEngine On
+RewriteBase /wp-content/plugins/h4mpy-npm/json/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?package=$1 [L,QSA]

@@ -1,0 +1,15 @@
+{
+    "name": "h4mpy/inteo.company",
+    "authors": [
+        {
+            "name": "h4mpy",
+            "email": "h4mpy@mail.ru"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.1",
+        "true/punycode": "~2.0",
+        "mmucklo/email-parse": "^2.0",
+      "ext-json": "*"
+    }
+}
