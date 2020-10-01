@@ -6,7 +6,7 @@
 Примеры "fullstack" проектов – [archiv.ru](https://www.archiv.ru/ "Делис Архив"), [parkzabava.ru](https://www.parkzabava.ru/ "Парк Забава"), [papindom.ru](http://papindom.ru/ "Папин Дом"), [yaringcom.ru](https://www.yaringcom.ru/ "Яринжком"), [vishivaem.ru](https://vishivaem.ru/ "Ярославская вышивальная фабрика"), [energy-blast.ru](https://energy-blast.ru/ "Energy Blast"), [mik76.ru](https://mik76.ru/ "МИК")
 - Разработка решений для Marketplace:  
 [Интео: Корпоративный сайт](http://marketplace.1c-bitrix.ru/solutions/inteo.corporation/)  
-[Быстрая установка любых JS-библиотек (NPM клиент)](http://marketplace.1c-bitrix.ru/solutions/inteo.npm/) (на Vue.js)  
+[Быстрая установка любых JS-библиотек (NPM клиент)](http://marketplace.1c-bitrix.ru/solutions/inteo.npmclient/) (на Vue.js)  
 - Разработка компонентов, модулей Битрикс
 - Интеграция с внешними сервисами (склады, службы доставки, синхронизация с СБИС и многое другое)
 - Разработка модулей для Битрикс24
